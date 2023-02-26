@@ -1,0 +1,85 @@
+2023.02.14 09:58:11 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/skliang/workspace/coursera/fp_scala/worksheets/.metals/lsp.trace.json or /Users/skliang/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2023.02.14 09:58:12 INFO  logging to file /Users/skliang/workspace/coursera/fp_scala/worksheets/.metals/metals.log[0m
+2023.02.14 09:58:12 INFO  Started: Metals version 0.11.10 in workspace '/Users/skliang/workspace/coursera/fp_scala/worksheets' for client Visual Studio Code 1.75.1.[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/skliang/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.14 09:58:14 INFO  time: initialize in 1.43s[0m
+2023.02.14 09:58:18 WARN  Build server is not auto-connectable.[0m
+2023.02.14 09:58:18 WARN  no build tool detected in workspace '/Users/skliang/workspace/coursera/fp_scala/worksheets'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.02.14 09:58:18 WARN  no build target for: /Users/skliang/workspace/coursera/fp_scala/worksheets/worksheets/src/main/scala/Main.scala[0m
+2023.02.14 09:58:18 WARN  no build target for: /Users/skliang/workspace/coursera/fp_scala/worksheets/worksheets/src/main/sumProd.scala[0m
+2023.02.14 09:58:26 INFO  no build target found for /Users/skliang/workspace/coursera/fp_scala/worksheets/worksheets/src/main/sumProd.scala. Using presentation compiler with project's scala-library version: 3.2.1[0m
+2023.02.14 09:58:27 INFO  time: code lens generation in 8.84s[0m
+2023.02.14 09:58:27 INFO  time: code lens generation in 1.74s[0m
+2023.02.14 09:58:36 WARN  no build target for: /Users/skliang/workspace/coursera/fp_scala/worksheets/worksheets/src/main/sumProd.scala[0m
+2023.02.14 09:58:49 WARN  no build target for: /Users/skliang/workspace/coursera/fp_scala/worksheets/worksheets/src/main/scala/sumProd.scala[0m
+2023.02.14 09:59:23 WARN  no build target for: /Users/skliang/workspace/coursera/fp_scala/worksheets/worksheets/src/main/scala/sumProd.worksheet.sc[0m
+[31merror[39m: worksheets/src/main/scala/sumProd.worksheet.sc:7:33: 
+Overloaded or recursive method calc needs return type
+	if a>b then base else op(f(a), calc(baes, f, op)(a+1, b))
+                                ^
+[31merror[39m: worksheets/src/main/scala/sumProd.worksheet.sc:7:38: 
+Not found: baes
+	if a>b then base else op(f(a), calc(baes, f, op)(a+1, b))
+                                     ^^^^
+2023.02.14 09:59:37 INFO  no build target found for /Users/skliang/workspace/coursera/fp_scala/worksheets/worksheets/src/main/scala/sumProd.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.1[0m
+2023.02.14 09:59:37 INFO  time: evaluated worksheet 'sumProd.worksheet.sc' in 14s[0m
+2023.02.14 10:00:08 WARN  no build target for: /Users/skliang/workspace/coursera/fp_scala/worksheets/worksheets/src/main/scala/sumProd.worksheet.sc[0m
+[31merror[39m: worksheets/src/main/scala/sumProd.worksheet.sc:7:33: 
+Overloaded or recursive method calc needs return type
+	if a>b then base else op(f(a), calc(base, f, op)(a+1, b))
+                                ^
+2023.02.14 10:00:10 INFO  time: evaluated worksheet 'sumProd.worksheet.sc' in 1.24s[0m
+2023.02.14 10:01:04 WARN  no build target for: /Users/skliang/workspace/coursera/fp_scala/worksheets/worksheets/src/main/scala/sumProd.worksheet.sc[0m
+[31merror[39m: worksheets/src/main/scala/sumProd.worksheet.sc:7:33: 
+Overloaded or recursive method calc needs return type
+	if a>b then base else op(f(a), calc(base, f, op)(a+1, b))
+                                ^
+2023.02.14 10:01:05 INFO  time: evaluated worksheet 'sumProd.worksheet.sc' in 1.35s[0m
+2023.02.14 10:01:32 WARN  no build target for: /Users/skliang/workspace/coursera/fp_scala/worksheets/worksheets/src/main/scala/sumProd.worksheet.sc[0m
+[31merror[39m: worksheets/src/main/scala/sumProd.worksheet.sc:7:14: 
+method calc has a return statement; it needs a result type
+	if a>b then return base else return op(f(a), calc(base, f, op)(a+1, b))
+             ^^^^^^^^^^^
+[31merror[39m: worksheets/src/main/scala/sumProd.worksheet.sc:7:31: 
+method calc has a return statement; it needs a result type
+	if a>b then return base else return op(f(a), calc(base, f, op)(a+1, b))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.02.14 10:01:33 INFO  time: evaluated worksheet 'sumProd.worksheet.sc' in 0.79s[0m
+2023.02.14 10:01:48 WARN  no build target for: /Users/skliang/workspace/coursera/fp_scala/worksheets/worksheets/src/main/scala/sumProd.worksheet.sc[0m
+2023.02.14 10:01:52 INFO  time: evaluated worksheet 'sumProd.worksheet.sc' in 3.93s[0m
+2023.02.14 10:01:57 WARN  no build target for: /Users/skliang/workspace/coursera/fp_scala/worksheets/worksheets/src/main/scala/sumProd.worksheet.sc[0m
+2023.02.14 10:01:58 INFO  time: evaluated worksheet 'sumProd.worksheet.sc' in 1.88s[0m
+2023.02.14 10:03:33 WARN  no build target for: /Users/skliang/workspace/coursera/fp_scala/worksheets/worksheets/src/main/scala/sumProd.worksheet.sc[0m
+2023.02.14 10:03:35 INFO  time: evaluated worksheet 'sumProd.worksheet.sc' in 1.81s[0m
+2023.02.14 10:03:41 WARN  no build target for: /Users/skliang/workspace/coursera/fp_scala/worksheets/worksheets/src/main/scala/sumProd.worksheet.sc[0m
+[31merror[39m: worksheets/src/main/scala/sumProd.worksheet.sc:14:1: 
+Not found: sum
+sum(1,5)
+^^^
+2023.02.14 10:03:42 INFO  time: evaluated worksheet 'sumProd.worksheet.sc' in 0.63s[0m
+2023.02.14 10:03:51 WARN  no build target for: /Users/skliang/workspace/coursera/fp_scala/worksheets/worksheets/src/main/scala/sumProd.worksheet.sc[0m
+[31merror[39m: worksheets/src/main/scala/sumProd.worksheet.sc:14:9: 
+Found:    (Int, Int)
+Required: Int => Int
+product(1,5)
+        ^^^
+2023.02.14 10:03:52 INFO  time: evaluated worksheet 'sumProd.worksheet.sc' in 1.14s[0m
+2023.02.14 10:04:02 WARN  no build target for: /Users/skliang/workspace/coursera/fp_scala/worksheets/worksheets/src/main/scala/sumProd.worksheet.sc[0m
+2023.02.14 10:04:04 INFO  time: evaluated worksheet 'sumProd.worksheet.sc' in 1.64s[0m
+2023.02.14 10:05:55 WARN  no build target for: /Users/skliang/workspace/coursera/fp_scala/worksheets/worksheets/src/main/scala/sumProd.worksheet.sc[0m
+[31merror[39m: worksheets/src/main/scala/sumProd.worksheet.sc:13:10: 
+Found:    (Int, Int)
+Required: Int => Int
+calcProd(1,5)
+         ^^^
+2023.02.14 10:05:55 INFO  time: evaluated worksheet 'sumProd.worksheet.sc' in 0.87s[0m
+2023.02.14 10:06:02 WARN  no build target for: /Users/skliang/workspace/coursera/fp_scala/worksheets/worksheets/src/main/scala/sumProd.worksheet.sc[0m
+2023.02.14 10:06:04 INFO  time: evaluated worksheet 'sumProd.worksheet.sc' in 1.57s[0m
+2023.02.14 10:06:20 WARN  no build target for: /Users/skliang/workspace/coursera/fp_scala/worksheets/worksheets/src/main/scala/sumProd.worksheet.sc[0m
+2023.02.14 10:06:22 INFO  time: evaluated worksheet 'sumProd.worksheet.sc' in 1.89s[0m
+2023.02.14 11:22:50 INFO  shutting down Metals[0m
